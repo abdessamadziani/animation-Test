@@ -294,4 +294,15 @@ nav img {
     flex-direction: row;
     align-content: center;
   }
+  .side-bar:hover {
+    width: 100%;
+  }
+  .side-bar:hover .social-links img {
+    width: 25px;
+    cursor: pointer;
+  }
+  .side-bar:hover .info-links img {
+    width: 25px;
+    cursor: pointer;
+  }
 }
